@@ -34,7 +34,7 @@ void merge(vector<int> &arr, int low , int mid, int high){
     
     for (int i = low; i <= high; i++)
     {
-        arr[i] = temp[i - low];
+        arr[i] = temp[i-low];
     }
     
 }
@@ -61,6 +61,12 @@ int main(){
    {
         cin >> num;
         arr.push_back(num);
+   }
+
+   mergeSort(arr , 0 , n-1);
+
+   for(auto it : arr){
+    cout << it << " ";
    }
    
 }
