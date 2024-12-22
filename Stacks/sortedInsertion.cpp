@@ -6,6 +6,7 @@ using namespace std;
 
 void insertTillSmall(stack<int>&s, int val){
 
+    //THIS IS VERY IMPORTANT CONDITION
     if(s.empty()){
         s.push(val);
         return;
