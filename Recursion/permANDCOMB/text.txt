@@ -1,0 +1,4 @@
+name	class
+chinu	12
+chin	12
+asjd	32

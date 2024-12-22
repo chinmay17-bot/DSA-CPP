@@ -18,7 +18,7 @@ void printSubSeq(string str , int i ,int n , string output ,vector<string> &ans)
 
 
 int main(){
-    string str = "abc";
+    string str = "123";
     string out = "";
 
     vector<string> ans;
