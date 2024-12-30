@@ -9,7 +9,7 @@ int main(){
     st.push(-1);
     vector<int> ans;
 
-    for(int i= n; i>= 0; i++){
+    for(int i= n-1; i>= 0; i++){
         if(st.top() < arr[i]){
             ans.push_back(st.top());
         }
